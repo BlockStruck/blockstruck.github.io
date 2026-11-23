@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BlockStruck Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --ink: #1d2333; --sub: #4b5270; --line: #e3e6ef; --accent: #3b5bdb; --box: #f3f5fb; color-scheme: light; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #12152b; --ink: #eef0fa; --sub: #b4bad8; --line: #2c3463; --accent: #8aa2ff; --box: #1b2042; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --bg: #12152b; --ink: #eef0fa; --sub: #b4bad8; --line: #2c3463; --accent: #8aa2ff; --box: #1b2042; color-scheme: dark; }
+  body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.6; color: var(--ink); background: var(--bg); }
+  h1 { font-size: 28px; margin-bottom: 4px; } h2 { font-size: 19px; margin-top: 32px; } h3 { font-size: 16px; margin-top: 20px; }
+  a { color: var(--accent); }
+  .sub { color: var(--sub); }
+  .summary { background: var(--box); border-radius: 12px; padding: 4px 18px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--sub); font-weight: 650; }
+  .scroll { overflow-x: auto; }
+  ol.toc { columns: 2; column-gap: 32px; padding-left: 20px; }
+  @media (max-width: 520px) { ol.toc { columns: 1; } }
+</style>
+</head>
+<body>
+<h1>BlockStruck Privacy Policy</h1>
+<p class="sub">Effective date: 11 November 2026 · Last updated: 11 November 2026</p>
+
+<p>BlockStruck ("the Game") is a free puzzle game for Android and iOS published by BlockStruck Games ("we", "us", "our").
+This policy explains what information the Game uses, why, who receives it, how long it is kept, and the choices and rights
+you have. We wrote it from what the Game actually does. If anything here is unclear, contact us (section 16).</p>
+
+<div class="summary">
+<h3>The short version</h3>
+<ul>
+  <li>You never need an account. We do not ask for your name, email address, phone number, contacts, photos, microphone, camera or precise location.</li>
+  <li>Your progress is saved on your phone. A few features (leaderboards, VS Friend races, progress backup, game statistics) use our game server, identified only by a random player ID.</li>
+  <li>The Game is paid for by ads from Google AdMob. Google may use your device's advertising ID to show and measure ads, with your consent where the law requires it.</li>
+  <li>There are no in-app purchases, and we do not sell your personal information.</li>
+  <li>You can ask us to delete what our server holds about you at any time.</li>
+</ul>
+</div>
+
+<h2>Contents</h2>
+<ol class="toc">
+  <li>Who is responsible</li>
+  <li>Information kept only on your phone</li>
+  <li>Information sent to our game server</li>
+  <li>Progress backup and restore codes</li>
+  <li>Advertising</li>
+  <li>App statistics (Google Analytics for Firebase)</li>
+  <li>Other services the Game uses</li>
+  <li>Permissions the Game asks for</li>
+  <li>Who receives your information</li>
+  <li>International transfers</li>
+  <li>Legal bases (EEA, UK and Switzerland)</li>
+  <li>How long information is kept</li>
+  <li>Your choices and rights</li>
+  <li>Children</li>
+  <li>Security</li>
+  <li>Contact, complaints and changes</li>
+</ol>
+
+<h2>1. Who is responsible</h2>
+<p>BlockStruck Games is responsible for the information our game server processes (the "controller" under data protection
+laws such as the GDPR). Google is responsible for its own processing when it shows ads or provides app statistics, as
+described in sections 5 and 6. You can reach us at
+<a href="mailto:blockstruck.game@gmail.com">blockstruck.game@gmail.com</a>.</p>
+
+<h2>2. Information kept only on your phone</h2>
+<p>The Game saves your progress on your device: scores and best scores, puzzle levels and stars, settings (sound, music,
+vibration, colour theme, notifications), daily missions, awards, statistics (games played, days played, streaks),
+a game in progress, the display name you choose, recent VS Friend codes, and your VS Friend record (how many races you
+have won, lost or tied; no other details of those games are kept). The Game also creates a random <b>player ID</b> the
+first time you play. It is a string of letters and numbers that is not linked to your name or device.</p>
+<p>This information stays on your phone unless you use a feature in section 3 or 4. Uninstalling the Game deletes it.</p>
+<p><b>Notifications.</b> If you allow notifications, reminders (for example a daily reward, a streak or new puzzles)
+are scheduled on your phone. The Game remembers roughly when you usually play so a reminder arrives at a sensible
+time; this stays on your phone. No push token is created and nothing about notifications is sent to us, except a
+yes or no answer counted in our statistics (section 3).</p>
+
+<h2>3. Information sent to our game server</h2>
+<p>Our server is hosted by Render (United States) and stores data with Upstash. Everything is sent over an encrypted
+HTTPS connection. The server receives only the following.</p>
+<div class="scroll"><table>
+  <tr><th>Feature</th><th>What is sent</th><th>Why</th><th>How long it is kept</th></tr>
+  <tr><td>Leaderboards</td>
+      <td>Player ID, the display name you choose, your score, the game mode, and the list of moves you made in that game</td>
+      <td>To rank scores and check each score is real by replaying the moves (anti-cheating)</td>
+      <td>Daily boards 3 days, weekly boards 16 days, all-time board until you ask us to remove it. Move lists are not stored after the check; a fingerprint of each game is kept 60 days to stop duplicates.</td></tr>
+  <tr><td>VS Friend races</td>
+      <td>Player ID, display name, your live score during the race, your final score and moves, and when you joined and finished</td>
+      <td>To run the race between you and your friend and check the final scores</td>
+      <td>Deleted automatically 48 hours after the race is created</td></tr>
+  <tr><td>Progress backup (only if you use it)</td>
+      <td>Player ID and a copy of the progress listed in section 2</td>
+      <td>So you can restore your progress on a new phone or after reinstalling (section 4)</td>
+      <td>365 days after your last backup, or until you ask us to delete it</td></tr>
+  <tr><td>Game statistics</td>
+      <td>Player ID, install date, platform (Android or iOS), language setting, Game version, whether you first opened the Game from a friend's link, and gameplay events: sessions, games started and finished (mode and score), tutorial and first-game steps, rewarded and full-screen ads offered and shown, ad impressions by type (banner, full-screen, rewarded), revives, VS Friend races created, joined and finished, missions and awards, backups saved and restored, shares, rating prompts, whether you allowed notifications, and which test group you are in (see below)</td>
+      <td>To understand how the Game is played, fix problems, balance difficulty, measure how many players return, and plan advertising</td>
+      <td>Added into daily totals. Lists of which player IDs played on a day are deleted after 35 days; daily totals after 400 days. A count of distinct player IDs is kept without expiry, as a number only.</td></tr>
+  <tr><td>Sponsored messages from local businesses</td>
+      <td>Player ID and how many times a sponsored card was shown or tapped</td>
+      <td>To report totals to the business that bought the sponsorship and avoid showing the same card too often</td>
+      <td>Only per-campaign totals are kept; duplicate checks are deleted after 2 days</td></tr>
+  <tr><td>Abuse protection</td>
+      <td>Your IP address, turned into a one-way coded value that cannot be turned back into the address</td>
+      <td>To limit requests and stop spam, guessing of restore codes, and cheating</td>
+      <td>Up to 24 hours</td></tr>
+</table></div>
+<p><b>Test groups.</b> To find the settings players enjoy most, some players get slightly different game settings (for example how many revives a game allows, or how quickly the pieces get harder). Your group comes from your random player ID, stays the same, and is only used for the game statistics above. The settings come from a small configuration file on our server; it cannot change what the Game collects.</p>
+<p>The statistics never include your name, contact details or advertising ID. Our hosting providers may keep standard
+technical logs (such as the IP addresses of requests) for security and reliability under their own policies.</p>
+
+<h2>4. Progress backup and restore codes</h2>
+<p>In Settings you can back up your progress. Our server stores a copy and gives you an 8-character <b>restore code</b>.
+Entering that code in the Game on another phone restores your progress. Once you have a code, the Game refreshes your
+backup from time to time after games so it stays current.</p>
+<ul>
+  <li><b>Keep your code private.</b> Anyone who has it can restore a copy of your progress. It does not give access to anything else.</li>
+  <li>The backup contains only Game progress (section 2). It has no name, email, contacts or payment details.</li>
+  <li>Restore attempts are limited to stop people guessing codes.</li>
+  <li>You can ask us to delete your backup at any time (section 13).</li>
+</ul>
+
+<h2>5. Advertising</h2>
+<p>The Game is free and is paid for by ads served through <b>Google AdMob</b>: a banner during play, full-screen ads at
+natural breaks such as after a game ends (never in your first games and never in the middle of a move), and optional
+rewarded videos that you choose to watch to continue a game.</p>
+<p>To show ads, limit how often you see them, measure them and prevent fraud, Google and its advertising partners may
+collect and use your device's advertising identifier (Android Advertising ID or Apple IDFA, where allowed), IP address,
+device model, operating system, language, approximate location derived from the IP address, and information about the
+ads you see and tap. Google may also work with other ad networks ("mediation partners") to fill ad space; they receive
+similar information for the same purposes. The list of Google's ad technology partners is at
+<a href="https://support.google.com/admob/answer/9012903">support.google.com/admob/answer/9012903</a>.</p>
+<ul>
+  <li><b>Consent:</b> in the EEA, the UK and Switzerland, and in US states with privacy laws, Google's consent form asks for your choice before personalised ads are shown. You can change it at any time in <b>Settings &gt; Privacy &amp; ad choices</b>. If you say no, you still see ads, but they are not personalised.</li>
+  <li><b>iOS:</b> Apple's App Tracking Transparency prompt asks whether the Game may use your IDFA. You can change this in iOS Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
+  <li><b>Android:</b> you can delete or reset your advertising ID in your phone's settings (Google &gt; Ads, or Security &amp; privacy &gt; Ads).</li>
+  <li>There is no paid way to remove ads. Rewarded videos are always optional.</li>
+</ul>
+<p>How Google uses data: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> and
+<a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+
+<h2>6. App statistics (Google Analytics for Firebase)</h2>
+<p>The Game may also send the gameplay events listed in section 3, together with your random player ID, to Google
+Analytics for Firebase, to help us understand how the Game is used. Firebase may also collect standard information
+such as an app instance ID, device model, operating system, Game version and approximate location derived from the IP
+address. We do not send your name or contact details to Firebase. Learn more at
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+<h2>7. Other services the Game uses</h2>
+<ul>
+  <li><b>Rating prompt:</b> the Game may ask Google Play or the Apple App Store to show its own "rate this app" window. Your rating and review go straight to the store under its privacy policy; we do not see who rated.</li>
+  <li><b>Sharing:</b> when you share a VS Friend code or your result, your phone's own share sheet opens. You choose the app and the person; we do not see who you send it to.</li>
+  <li><b>App stores:</b> Google and Apple process information when you download and update the Game, under their own policies.</li>
+</ul>
+
+<h2>8. Permissions the Game asks for</h2>
+<ul>
+  <li><b>Internet:</b> for ads, leaderboards, races, backups and statistics. The Game still works offline.</li>
+  <li><b>Notifications</b> (optional): for reminders, as described in section 2.</li>
+  <li><b>Vibration:</b> for touch feedback. You can turn it off in Settings.</li>
+  <li><b>Advertising ID / tracking</b> (iOS asks first): for ads, as described in section 5.</li>
+</ul>
+<p>The Game does not ask for your location, contacts, camera, microphone, photos or files.</p>
+
+<h2>9. Who receives your information</h2>
+<p>We share information only with the service providers needed to run the Game: Render (server hosting), Upstash (data
+storage), Google (AdMob advertising, the consent form and Firebase statistics) and the ad networks Google works with.
+We may also disclose information if the law requires it, to protect our rights or users' safety, or as part of a sale
+or transfer of the Game, in which case this policy continues to apply.</p>
+<p><b>We do not sell your personal information for money.</b> Under some US state laws, letting ad networks use an
+advertising ID for personalised ads can count as "selling" or "sharing". You can opt out of that at any time in
+<b>Settings &gt; Privacy &amp; ad choices</b>, by limiting ad tracking on your phone, or by contacting us.</p>
+
+<h2>10. International transfers</h2>
+<p>Our server runs in the United States, and Google and its partners process data in many countries. When information
+from the EEA, the UK or Switzerland is transferred, it is protected by the safeguards our providers use, such as the
+European Commission's Standard Contractual Clauses or the EU-US Data Privacy Framework.</p>
+
+<h2>11. Legal bases (EEA, UK and Switzerland)</h2>
+<ul>
+  <li><b>Providing the features you use</b> (leaderboards, VS Friend races, progress backup): necessary to provide the Game as you ask.</li>
+  <li><b>Running, protecting and improving the Game</b> (game statistics, abuse protection, sponsored message counts, non-personalised ads): our legitimate interests in operating a free, fair and working game. You can object (section 13).</li>
+  <li><b>Personalised advertising</b> and storing or reading information on your device for it: your consent, collected through Google's consent form and changeable in Settings.</li>
+  <li><b>Legal obligations</b>, where the law requires us to keep or disclose information.</li>
+</ul>
+
+<h2>12. How long information is kept</h2>
+<p>Each retention period is listed in section 3. In short: the information on your phone stays until you uninstall the
+Game; race data is deleted after 48 hours; backups 365 days after the last one; detailed statistics after 35 days and
+daily totals after 400 days; coded IP values within 24 hours. All-time leaderboard entries stay until you ask us to
+remove them. Google keeps advertising and Firebase data under its own policies.</p>
+
+<h2>13. Your choices and rights</h2>
+<ul>
+  <li><b>Play privately:</b> you do not have to use leaderboards, races or backup, and the Game works offline.</li>
+  <li><b>Access, correction and deletion:</b> you can ask for a copy of what our server holds about your player ID, ask us to correct it, or ask us to delete it (including your leaderboard entries and your backup). Your player ID is shown in <b>Settings</b>; tap it to copy, and send it to us. If you have a restore code, include it so we can find your backup.</li>
+  <li><b>Objection and restriction:</b> you can object to our use of your information for statistics, or ask us to limit it.</li>
+  <li><b>Withdraw consent:</b> change your ad choices at any time in <b>Settings &gt; Privacy &amp; ad choices</b>. This does not affect what was done before.</li>
+  <li><b>US state rights:</b> depending on your state, you may have the right to know, delete and correct personal information, and to opt out of its sale or sharing for targeted ads. We will not treat you differently for using these rights.</li>
+  <li><b>Response time:</b> we answer within 30 days (or sooner where the law requires). We may ask you to confirm that the player ID is yours, for example by sharing it from your Game's Settings.</li>
+  <li>Uninstalling the Game deletes everything stored on your phone.</li>
+</ul>
+
+<h2>14. Children</h2>
+<p>The Game is not directed at children under 13 (or under the minimum age for consent to data processing in your
+country, such as 16 in some EEA countries), and we do not knowingly collect personal information from them. The Game
+never asks for names, emails or other contact details. If you believe a child has sent us personal information,
+contact us with their player ID and we will delete it.</p>
+
+<h2>15. Security</h2>
+<p>All connections use HTTPS. The server stores no names, emails or payment details, and stores IP addresses only as
+one-way coded values for a short time. Restore attempts and other requests are rate limited. Access to statistics and
+sponsor tools is password protected and limited to us. No system is perfectly secure, but if a breach affected your
+information we would notify you and the authorities where the law requires.</p>
+
+<h2>16. Contact, complaints and changes</h2>
+<p>Questions, requests or complaints: BlockStruck Games,
+<a href="mailto:blockstruck.game@gmail.com">blockstruck.game@gmail.com</a>.</p>
+<p>If you are in the EEA, the UK or Switzerland, you can also complain to your local data protection authority.</p>
+<p>If we change what the Game collects or how it is used, we will update this page and the dates at the top before the
+change reaches the Game. If the change is significant, we will also tell you in the Game.</p>
+</body>
+</html>
